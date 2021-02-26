@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+header {
+  width: auto;
+  background-color: white;
+}
+
+header nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+.hamburger {
+  padding-bottom: 2em;
+}
+
+.hamburger img {
+  -webkit-animation: transitionIn 2s;
+          animation: transitionIn 2s;
+}
+
+.hamburger p {
+  margin-left: 20px;
+  color: gray;
+  position: absolute;
+  margin-top: -110px;
+  font-size: 3em;
+}
+
+.platedecoration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.platedecoration img {
+  -webkit-animation: plate 2s;
+          animation: plate 2s;
+  padding: 3em;
+}
+
+.platedecoration .about {
+  padding: 3em;
+}
+
+.platedecoration .about .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.platedecoration .about .header h2 {
+  font-size: 3em;
+}
+
+.platedecoration .about .subhead {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.platedecoration .about .subhead h5 {
+  color: gray;
+}
+
+.ourmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.ourmenu .menu {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ourmenu .headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ourmenu .headline p {
+  color: gray;
+}
+
+.contact {
+  padding: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact h5 {
+  color: gray;
+}
+
+.contact input {
+  height: 5em;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: gray;
+}
+
+.contact button {
+  margin-top: 10px;
+  width: 10em;
+  height: 3em;
+  border: none;
+}
+
+@-webkit-keyframes transitionIn {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    width: 5%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes plate {
+  from {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes plate {
+  from {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.logo h4::before {
+  content: 'the';
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */
